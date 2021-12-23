@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int dayOfWeek = scanner.nextLine();
+        int dayOfWeek = scanner.nextInt();
 
         if (dayOfWeek ==1 )
         {
