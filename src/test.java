@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int dayOfWeek_String = scanner.nextLine();
+        int dayOfWeek = scanner.nextLine();
 
         if (dayOfWeek ==1 )
         {
@@ -35,6 +35,7 @@ public class test {
         {
             System.out.println("Friday");
         }
-
+        else
+            System.out.println("insert another number");
     }
 }
